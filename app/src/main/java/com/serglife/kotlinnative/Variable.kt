@@ -1,5 +1,6 @@
 package com.serglife.kotlinnative
 
 fun main(){
-    println("Hello world!!")
+    val test = "test"
+    println("$test")
 }
