@@ -5,7 +5,9 @@ fun main(){
     if(5 in 0..10){
         println("5 входит в диапазон от 0 до 10 вернет true")
     }
-
+    (0..10).forEach { i ->
+        println((0..10).random())
+    }
     val list = listOf(1,22,3,4,5,6,7,8,9,10)
 
     println("-----------------")
