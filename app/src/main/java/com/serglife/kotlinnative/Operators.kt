@@ -19,6 +19,12 @@ fun main(){
         32 -> println("32")
         else -> println("...")
     }
+
+    when{
+        age > 30 -> println("age > 32")
+        age < 30 -> println("age < 32")
+        age == 30 -> println("age == 32")
+    }
 }
 
 class Animal(name: String, age: Int){}
